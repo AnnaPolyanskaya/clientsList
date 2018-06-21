@@ -1,0 +1,18 @@
+li{
+  overflow: auto;
+  background: #F4F4F4;
+}
+.person-info{
+  margin: 5px auto;
+  color: #fff;
+  background: #394264;
+  border-radius: 5px;
+  
+}
+.person-info img{
+  margin: 0 auto;
+  border: 5px solid #50597b;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}

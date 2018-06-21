@@ -1,0 +1,14 @@
+.avatar{
+    border: 5px solid #50597b;
+    width: 150px;  
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 100%
+    
+}
+.client-box{
+    background: #394264;
+    border-radius: 5px;
+    padding: 20px;
+}

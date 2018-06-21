@@ -1,0 +1,46 @@
+input:focus {
+    border-color: #999;
+}
+
+input:focus, 
+input:valid{
+    transition-duration: .2s;
+    transform: translate(0, -1.5em) scale(0.9, 0.9);
+}
+
+input:invalid {
+    content: attr(alt);
+}
+
+input {
+    margin: 1em;
+    padding: 1em 3.4em 1em 1.5em;
+    border: 3px solid #394264;
+    border-radius: 2em;
+    -webkit-transition: border-color .2s ease-in-out;
+    -o-transition: border-color .2s ease-in-out;
+    transition: border-color .2s ease-in-out;
+        transition-duration: 0.2s;
+    font-size: .9em;
+    display: block;
+    width: 100%;
+    color: grey;
+    text-transform: uppercase;
+    word-spacing: 16px;
+
+}
+
+
+input:before {
+    content: attr(data-info);
+    display: inline-block;
+    margin: 0 1em;
+    padding: 0 2px;
+    white-space: nowrap;
+    transition: 0.3s ease-in-out;
+}
+
+button{
+    padding: 9px;
+    border: none;
+}
